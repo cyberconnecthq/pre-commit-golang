@@ -1,4 +1,4 @@
 #!/usr/bin/env zsh
 source ~/.zshrc
 
-go build -o TESTFILEOUTPUT $FILES && rm TESTFILEOUTPUT
+go build -o TESTFILEOUTPUT && rm TESTFILEOUTPUT

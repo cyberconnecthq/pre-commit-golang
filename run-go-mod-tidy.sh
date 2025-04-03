@@ -1,4 +1,4 @@
-#!/usr/bin/env bash
+#!/usr/bin/env zsh
 
 go mod tidy -v $@
 if [ $? -ne 0 ]; then

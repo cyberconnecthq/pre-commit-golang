@@ -1,4 +1,3 @@
-#!/usr/bin/env bash
 
 go mod tidy -v $@
 if [ $? -ne 0 ]; then

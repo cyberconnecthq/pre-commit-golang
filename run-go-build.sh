@@ -1,3 +1,3 @@
 #!/usr/bin/env bash
 FILES=$(go list ./...  | grep -v /vendor/)
-exec go build $FILES
+go build -o TESTFILEOUTPUT $FILES && rm TESTFILEOUTPUT
